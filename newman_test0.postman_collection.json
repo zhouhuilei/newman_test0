@@ -20,7 +20,7 @@
 							"    var jsonData = pm.response.json();\r",
 							"    pm.expect(jsonData.status).to.eql(1);\r",
 							"});\r",
-							"pm.test(\"code=ok\", function () {\r",
+							"pm.test(\"has code=ok\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include('\"result\":{\"credits_page\":{\"code\":\"ok\"');\r",
 							"});"
 						],
